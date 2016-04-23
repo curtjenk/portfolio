@@ -11,23 +11,19 @@ hr {
     padding-right: 0;
 }
 
-.bkgrnd {
-    background-image: url("400px-Atlanta_Skyline_from_Buckhead.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 300px;
-    width: 100%;
-    /* position: relative;
-    z-index: 1;*/
-}
 
 #home-card {
     z-index: 2000;
-    margin-top: -275px;
+    margin-top: -400px;
     /* left: -1000px;
   position: absolute;*/
 }
-
+.camp-img {
+    width: 33%;
+}
+.camp-img img {
+    width: 100%;
+}
 
 /*override the animation duration found in animate.css*/
 
