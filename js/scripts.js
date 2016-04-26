@@ -40,8 +40,9 @@
          console.log("scrolled into viewport")
          $camp.find('.camp-card').css('visibility', 'visible');
          $camp.find('.camp-card').addClass('animated');
+         
          $camp.find('.camp-card.left').removeClass('fadeOutLeft');
-         $camp.find('.camp-card.middle').removeClass('fadeOutUp');
+         $camp.find('.camp-card.middle').removeClass('fadeOutDownBig');
          $camp.find('.camp-card.right').removeClass('fadeOutRight');
 
          $camp.find('.camp-card.left').addClass('fadeInLeft');
@@ -51,12 +52,13 @@
          console.log("scrolled out of viewport")
          $camp.find('.camp-card').css('visibility', 'hidden');
          $camp.find('.camp-card').removeClass('animated');
+         
          $camp.find('.camp-card.left').removeClass('fadeInLeft');
-         $camp.find('.camp-card.middle').removeClass('fadeInDownBig');
+         $camp.find('.camp-card.middle').removeClass('fadeInUpBig');
          $camp.find('.camp-card.right').removeClass('fadeInRight');
 
          $camp.find('.camp-card.left').addClass('fadeOutLeft');
-         // $camp.find('.camp-card.middle').addClass('fadeOutDownBig');
+         $camp.find('.camp-card.middle').addClass('fadeOutDownBig');
          $camp.find('.camp-card.right').addClass('fadeOutRight');
      }
  }
