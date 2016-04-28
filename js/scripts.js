@@ -37,28 +37,28 @@
  function check_if_in_view() {
      var $camp = $('#boot-camp');
      if ($camp.is(':in-viewport( 0 )')) {
-         console.log("scrolled into viewport")
-         $camp.find('.camp-card').css('visibility', 'visible');
-         $camp.find('.camp-card').addClass('animated');
-         
-         $camp.find('.camp-card.left').removeClass('fadeOutLeft');
-         $camp.find('.camp-card.middle').removeClass('fadeOutDownBig');
-         $camp.find('.camp-card.right').removeClass('fadeOutRight');
+         console.log("scrolled into viewport");
+         $camp.find('.skill-card').css('visibility', 'visible');
+         $camp.find('.skill-card').addClass('animated');
 
-         $camp.find('.camp-card.left').addClass('fadeInLeft');
-         $camp.find('.camp-card.middle').addClass('fadeInUpBig');
-         $camp.find('.camp-card.right').addClass('fadeInRight');
+         $camp.find('.skill-card.left').removeClass('fadeOutLeft');
+         $camp.find('.skill-card.middle').removeClass('fadeOutDownBig');
+         $camp.find('.skill-card.right').removeClass('fadeOutRight');
+
+         $camp.find('.skill-card.left').addClass('fadeInLeft');
+         $camp.find('.skill-card.middle').addClass('fadeInUpBig');
+         $camp.find('.skill-card.right').addClass('fadeInRight');
      } else {
-         console.log("scrolled out of viewport")
-         $camp.find('.camp-card').css('visibility', 'hidden');
-         $camp.find('.camp-card').removeClass('animated');
-         
-         $camp.find('.camp-card.left').removeClass('fadeInLeft');
-         $camp.find('.camp-card.middle').removeClass('fadeInUpBig');
-         $camp.find('.camp-card.right').removeClass('fadeInRight');
+         console.log("scrolled out of viewport");
+         $camp.find('.skill-card').css('visibility', 'hidden');
+         $camp.find('.skill-card').removeClass('animated');
 
-         $camp.find('.camp-card.left').addClass('fadeOutLeft');
-         $camp.find('.camp-card.middle').addClass('fadeOutDownBig');
-         $camp.find('.camp-card.right').addClass('fadeOutRight');
+         $camp.find('.skill-card.left').removeClass('fadeInLeft');
+         $camp.find('.skill-card.middle').removeClass('fadeInUpBig');
+         $camp.find('.skill-card.right').removeClass('fadeInRight');
+
+         $camp.find('.skill-card.left').addClass('fadeOutLeft');
+         $camp.find('.skill-card.middle').addClass('fadeOutDownBig');
+         $camp.find('.skill-card.right').addClass('fadeOutRight');
      }
  }

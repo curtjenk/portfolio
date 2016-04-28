@@ -22,29 +22,6 @@
 <body>
     <!-- Navigation -->
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">
-                <a href="#top" onclick=$ ( "#menu-close").click();>Curtis Jenkins</a>
-            </li>
-            <li>
-                <a href="#top" onclick=$ ( "#menu-close").click();>Home</a>
-            </li>
-            <li>
-                <a href="#reboot" onclick=$ ( "#menu-close").click();>(re)Boot Camp</a>
-            </li>
-            <li>
-                <a href="#services" onclick=$ ( "#menu-close").click();>Services</a>
-            </li>
-            <li>
-                <a href="#portfolio" onclick=$ ( "#menu-close").click();>Portfolio</a>
-            </li>
-            <li>
-                <a href="#contact" onclick=$ ( "#menu-close").click();>Contact</a>
-            </li>
-        </ul>
-    </nav>
     <!-- Header -->
     <header id="top" class="header">
         <img src="img/400px-Atlanta_Skyline_from_Buckhead.jpg">
@@ -77,98 +54,115 @@
     </div>
     <!-- Boot Camp -->
     <section id="reboot" class="reboot">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 text-md-center">
                     <h2>(re)Boot Camp Project Portfolio</h2>
                     <p class="lead">Thanks <a target="_blank" href="http://digitalcrafts.com">DigitalCrafts</a> for the ctrl-alt-delete</p>
                     <br>
-                    <p class="skills"></p>
                 </div>
             </div>
             <!-- /.row -->
         </div>
-        <!-- /.container -->
+        <!-- /.container-fluid -->
     </section>
-    <section id="boot-camp" class="container">
-        <div id="camp-card-wrapper" class="col-md-12">
-            <div class="camp-card left">
-                <div class="col-md-4">
-                    <div class="camp-img">
-                        <img src="img/tech/jquery.jpg">
+    <section id="boot-camp" class="container-fluid">
+        <div class="row">
+            <div id="skill-wrapper" class="col-md-12">
+                <div class="skill-card left">
+                    <div class="col-md-2">
+                        <div class="skill">
+                            <img src="img/tech/jquery.jpg">
+                        </div>
+                        <div class="skill">
+                            <img src="img/tech/icon-javascript.png">
+                        </div>
                     </div>
-                    <div class="camp-img">
-                        <img src="img/tech/icon-javascript.png">
+                </div>
+                <div class="skill-card left">
+                    <div class="col-md-2">
+                        <div class="skill">
+                            <img src="img/tech/AngularJS.png">
+                        </div>
+                        <div class="skill">
+                            <img src="img/tech/nodejs.png">
+                        </div>
                     </div>
-                    <div class="camp-img">
-                        <img src="img/tech/AngularJS.png">
+                </div>
+                <div class="skill-card left">
+                    <div class="col-md-2">
+                        <div class="skill">
+                            <img src="img/tech/GitHub-Mark.png">
+                        </div>
+
+                        <div class="skill">
+                            <img src="img/tech/HTML5_Logo.svg">
+                        </div>
                     </div>
-                    <div class="camp-img">
-                        <img src="img/tech/nodejs.png">
+                </div>
+                <div class="skill-card middle">
+                    <div class="col-md-2">
+
+                        <div class="skill">
+                            <img src="img/tech/css3.svg">
+                        </div>
+                        <div class="skill">
+                            <img src="img/tech/Bootstrap_logo.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card middle">
+                    <div class="col-md-2">
+
+                        <div class="skill">
+                            <img src="img/tech/mongoose.png">
+                        </div>
+
+                        <div class="skill">
+                            <img src="img/tech/sass.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card right">
+                    <div class="col-md-2">
+                        <div class="skill">
+                            <img src="img/tech/mongodb.svg">
+                        </div>
+                        <div class="skill">
+                            <img src="img/tech/express.png">
+                        </div>
+
                     </div>
                 </div>
             </div>
-            <div class="camp-card animated middle">
-                <div class="col-md-4">
-                    <div class="camp-img">
-                        <img src="img/tech/GitHub-Mark.png">
+        </div>
+        <div class="row">
+            <div id="projects-wrapper" class="col-md-12">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12">
+                        <div class="project col-md-6">
+                            <img class="img-portfolio" src="img/projects/google-maps.png" />
+                        </div>
+                        <div class="project col-md-6">
+                            <img src="img/projects/memory-game.png" />
+                        </div>
                     </div>
-                    <div class="camp-img" style="margin-top: 30px;">
-                        <img src="img/tech/mongoose.png">
-                    </div>
-                    <div class="camp-img">
-                        <img src="img/tech/sass.svg">
-                    </div>  
                 </div>
-            </div>
-            <div class="camp-card right">
-                <div class="col-md-4">
-                    <div class="camp-img">
-                        <img src="img/tech/mongodb.svg">
-                    </div>
-                    <div class="camp-img">
-                        <img src="img/tech/express.png">
-                    </div>
-                    <div class="camp-img">
-                        <img src="img/tech/css3.svg">
-                    </div>
-                    <div class="camp-img">
-                        <img src="img/tech/HTML5_Logo.svg">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="project col-md-6">
+                            <img src="img/projects/my-grub.png" />
+                        </div>
+                        <div class="project col-md-6">
+                            <img src="img/projects/tic-tac-toe.png" />
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-     <section id="reboot" class="reboot">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-md-center">
-                    <h2>(re)Boot Camp Project Portfolio</h2>
-                    <p class="lead">Thanks <a target="_blank" href="http://digitalcrafts.com">DigitalCrafts</a> for the ctrl-alt-delete</p>
-                    <br>
-                    <p class="skills"></p>
-                </div>
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
 
-     <section id="reboot" class="reboot">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-md-center">
-                    <h2>(re)Boot Camp Project Portfolio</h2>
-                    <p class="lead">Thanks <a target="_blank" href="http://digitalcrafts.com">DigitalCrafts</a> for the ctrl-alt-delete</p>
-                    <br>
-                    <p class="skills"></p>
-                </div>
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
     <!-- Services -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
     <!-- <section id="services" class="services bg-primary">
@@ -231,13 +225,13 @@
                             </div>
                         </div>
                     </div>
-                   
+
                 </div>
-               
+
             </div>
-           
+
         </div>
-       
+
     </section> -->
     <!-- Callout -->
     <!-- <aside class="callout">
@@ -282,12 +276,12 @@
                             </div>
                         </div>
                     </div>
-                
+
                     <a href="#" class="btn btn-dark">View More Items</a>
                 </div>
-             
+
             </div>
-          
+
         </div>
     </section> -->
     <!-- Call to Action -->
@@ -318,26 +312,26 @@
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h4><strong>Curtis L Jenkins</strong>
                     </h4>
-                    <p>Metropolitan Atlanta, GA
-                        <ul class="list-unstyled">
-                            <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-                            <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:curtjenk@comcast.net">curtjenk@comcast.net</a>
-                            </li>
-                        </ul>
-                        <br>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
-                            </li>
-                        </ul>
-                        <hr class="small">
-                        <p class="text-muted">Copyright &copy; David Jonathan Jenkins &amp; Associates, LLC 2016</p>
+                    <p>Metropolitan Atlanta, GA</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:curtjenk@comcast.net">curtjenk@comcast.net</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; David Jonathan Jenkins &amp; Associates, LLC 2016</p>
                 </div>
             </div>
         </div>
