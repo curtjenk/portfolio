@@ -8,153 +8,185 @@
     <meta name="description" content="">
     <meta name="Curtis Jenkins" content="">
     <title>Curtis Jenkins Portfolio</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/stylish-portfolio.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" type="text/css" href="css/profile-card-style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/profile-card-style.css"> -->
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-    <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <img id="bg" src="img/express.jpg" />
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="img/CurtisJenkins.jpg" />
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#home">Home<span class="sr-only">(current)</span></a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Boot Camp<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#reboot">New Skills</a>
+                            </li>
+                            <li>
+                                <a href="projects">Sample Projects</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
     <!-- Header -->
-    <header id="top" class="header">
-        <img src="img/400px-Atlanta_Skyline_from_Buckhead.jpg">
-    </header>
-    <div class="row">
-        <div id="home-card" class="col-md-6 col-md-offset-3">
-            <div class="card animated fadeInUp">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div id="profile-img">
-                            <img class="img-responsive" src="img/CurtisJenkins.jpg" alt="Curtis Jenkins" />
-                        </div>
-                    </div>
-                    <div class="col-md-6">
+    <!-- <header id="top" class="header">
+        <img src="img/express.jpg">
+    </header> -->
+    <section id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div id="home-card" class="col-md-6 col-md-offset-3">
+                    <!-- <img id="bg" src="img/express.jpg" /> -->
+                    <!-- <div class="card"> -->
+                    <!-- <div class="card animated fadeInUp"> -->
+                    <div class="col-md-12">
                         <div class="card-block">
-                            <h4 class="card-title">Curtis L Jenkins</h4>
-                            <!-- <h2 class="profile-position">Dentist</h2></div> -->
-                            <h6 class="text-muted">IT Professional</h6>
+                            <div class="line1">Curtis L Jenkins</div>
+                            <div class="line2">Experienced IT Professional</div>
+                            <div id="divider">
+                                <img src="img/divider.png">
+                            </div>
+                            <div class="line3">Builder Of Things</div>
                         </div>
                     </div>
-                </div>
-                <div class="card-block">
-                    <p class="card-text">Now is the time for all good men to come to the aid of their country.</p>
-                </div>
-                <div class="card-block text-center">
+                    <!-- </div> -->
                 </div>
             </div>
         </div>
-        <!-- .end Card -->
-    </div>
+    </section>
     <!-- Boot Camp -->
-    <section id="reboot" class="reboot">
+    <section id="reboot" class="page2">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 text-md-center">
-                    <h2>(re)Boot Camp Project Portfolio</h2>
+                    <h1 class="cursive-font">New Skills Learned In Boot Camp</h1>
                     <p class="lead">Thanks <a target="_blank" href="http://digitalcrafts.com">DigitalCrafts</a> for the ctrl-alt-delete</p>
                     <br>
                 </div>
             </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container-fluid -->
-    </section>
-    <section id="boot-camp" class="container-fluid">
-        <div class="row">
-            <div id="skill-wrapper" class="col-md-12">
-                <div class="skill-card left">
-                    <div class="col-md-2">
-                        <div class="skill">
-                            <img src="img/tech/jquery.jpg">
-                        </div>
-                        <div class="skill">
-                            <img src="img/tech/icon-javascript.png">
+            <div class="row">
+                <div id="skill-wrapper" class="col-md-12">
+                    <div class="skill-card left">
+                        <div class="col-md-2">
+                            <div class="skill">
+                                <img src="img/tech/jquery.jpg">
+                            </div>
+                            <div class="skill">
+                                <img src="img/tech/icon-javascript.png">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="skill-card left">
-                    <div class="col-md-2">
-                        <div class="skill">
-                            <img src="img/tech/AngularJS.png">
-                        </div>
-                        <div class="skill">
-                            <img src="img/tech/nodejs.png">
-                        </div>
-                    </div>
-                </div>
-                <div class="skill-card left">
-                    <div class="col-md-2">
-                        <div class="skill">
-                            <img src="img/tech/GitHub-Mark.png">
-                        </div>
-
-                        <div class="skill">
-                            <img src="img/tech/HTML5_Logo.svg">
+                    <div class="skill-card left">
+                        <div class="col-md-2">
+                            <div class="skill">
+                                <img src="img/tech/AngularJS.png">
+                            </div>
+                            <div class="skill">
+                                <img src="img/tech/nodejs.png">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="skill-card middle">
-                    <div class="col-md-2">
+                    <div class="skill-card left">
+                        <div class="col-md-2">
+                            <div class="skill">
+                                <img src="img/tech/GitHub-Mark.png">
+                            </div>
 
-                        <div class="skill">
-                            <img src="img/tech/css3.svg">
-                        </div>
-                        <div class="skill">
-                            <img src="img/tech/Bootstrap_logo.svg">
+                            <div class="skill">
+                                <img src="img/tech/HTML5_Logo.svg">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="skill-card middle">
-                    <div class="col-md-2">
+                    <div class="skill-card middle">
+                        <div class="col-md-2">
 
-                        <div class="skill">
-                            <img src="img/tech/mongoose.png">
-                        </div>
-
-                        <div class="skill">
-                            <img src="img/tech/sass.svg">
+                            <div class="skill">
+                                <img src="img/tech/css3.svg">
+                            </div>
+                            <div class="skill">
+                                <img src="img/tech/Bootstrap_logo.svg">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="skill-card right">
-                    <div class="col-md-2">
-                        <div class="skill">
-                            <img src="img/tech/mongodb.svg">
-                        </div>
-                        <div class="skill">
-                            <img src="img/tech/express.png">
-                        </div>
+                    <div class="skill-card middle">
+                        <div class="col-md-2">
 
+                            <div class="skill">
+                                <img src="img/tech/mongoose.png">
+                            </div>
+
+                            <div class="skill">
+                                <img src="img/tech/sass.svg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-card right">
+                        <div class="col-md-2">
+                            <div class="skill">
+                                <img src="img/tech/mongodb.svg">
+                            </div>
+                            <div class="skill">
+                                <img src="img/tech/express.png">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div id="projects-wrapper" class="col-md-12">
-                <div class="row">
-                    <div class="col-md-12 col-lg-12">
-                        <div class="project col-md-6">
-                            <img class="img-portfolio" src="img/projects/google-maps.png" />
-                        </div>
-                        <div class="project col-md-6">
-                            <img src="img/projects/memory-game.png" />
+            <div class="row">
+                <div id="projects-wrapper" class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                            <div class="project col-md-6">
+                                <img class="img-portfolio" src="img/projects/google-maps.png" />
+                            </div>
+                            <div class="project col-md-6">
+                                <img src="img/projects/memory-game.png" />
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="project col-md-6">
-                            <img src="img/projects/my-grub.png" />
-                        </div>
-                        <div class="project col-md-6">
-                            <img src="img/projects/tic-tac-toe.png" />
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="project col-md-6">
+                                <img src="img/projects/my-grub.png" />
+                            </div>
+                            <div class="project col-md-6">
+                                <img src="img/projects/tic-tac-toe.png" />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -162,151 +194,7 @@
         </div>
     </section>
 
-
-    <!-- Services -->
-    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <!-- <section id="services" class="services bg-primary">
-        <div class="container">
-            <div class="row text-md-center">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Our Services</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>http://pythontutor.com/
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section> -->
-    <!-- Callout -->
-    <!-- <aside class="callout">
-        <div class="text-vertical-center">
-            <h1>Vertically Centered Text</h1>
-        </div>
-    </aside>
-    <!-- Portfolio -->
-    <!--<section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Our Work</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <a href="#" class="btn btn-dark">View More Items</a>
-                </div>
-
-            </div>
-
-        </div>
-    </section> -->
-    <!-- Call to Action -->
-    <!--<aside class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>The buttons below are impossible to resist.</h3>
-                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
-                </div>
-            </div>
-        </div>
-    </aside> -->
-    <!-- Map -->
-    <!--<section id="contact" class="map">
-        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-        <br />
-        <small>
-            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-        </small>
-        </iframe>
-    </section> -->
-    <!-- Footer -->
-    <footer>
+    <section>
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
@@ -335,10 +223,10 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/isInViewport.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
 </body>
 

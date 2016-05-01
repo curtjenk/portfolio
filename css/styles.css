@@ -1,7 +1,13 @@
-/*body {
-    text-align: center;
-}*/
-
+body {
+    padding-top: 70px;
+}
+.navbar-brand {
+    padding: 5px 20px;
+}
+.navbar-brand img {
+    width: 20%;
+    border-radius: 40%;
+}
 hr {
     border-top: 1px solid #eee;
 }
@@ -9,11 +15,48 @@ hr {
     padding-left: 0;
     padding-right: 0;
 }
+
+/*each section takes full page*/
+
+section {
+    /*margin-top: 5%;*/
+    height: 100vh;
+    padding-top: 40px;
+    margin-top: -40px;
+}
+#bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+}
+#divider {
+    /*background: url('../img/divider.png') no-repeat;*/
+    width: 300px;
+    height: 35px;
+    margin: 0px auto 27px auto;
+    /*border: 1px solid black;*/
+    /*background-color: lightGrey;*/
+    /*position: absolute;*/
+}
+.cursive-font {
+  font-family: 'Kalam', cursive;
+}
 #home-card {
-    z-index: 2000;
-    margin-top: -400px;
-    /* left: -1000px;
-  position: absolute;*/
+    margin-top: 10%;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+}
+.line1 {
+    font-size: 70px;
+}
+.line2, .line3 {
+    font-size: 50px;
+}
+#reboot {
+  text-align: center;
 }
 .skill {
     /*position: relative;
@@ -24,9 +67,6 @@ hr {
     width: 100px;
     height: 100px;
 }
-.skill div {
-    /*position: absolute;*/
-}
 
 /*override the animation duration found in animate.css*/
 
@@ -34,29 +74,35 @@ hr {
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
 }
-.card {
+
+/*.card {
     overflow: hidden;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     -webkit-transition: .25s box-shadow;
     transition: .25s box-shadow;
-}
-.card:focus, .card:hover {
+}*/
+
+
+/*.card:focus, .card:hover {
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 .card-inverse .card-img-overlay {
     background-color: rgba(51, 51, 51, 0.85);
     border-color: rgba(51, 51, 51, 0.85);
-}
-#boot-camp {
-  background-color: #f0f0f0;
-  width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
+}*/
+
+
+/*#boot-camp {
+    background-color: #f0f0f0;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}*/
+
 #projects-wrapper {
-  margin-top: 15px;
+    margin-top: 15px;
     /*width: 100%;
     margin: auto;
     text-align: center;*/

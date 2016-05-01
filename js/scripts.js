@@ -1,16 +1,4 @@
- // Closes the sidebar menu
- $("#menu-close").click(function(e) {
-     e.preventDefault();
-     $("#sidebar-wrapper").toggleClass("active");
- });
-
- // Opens the sidebar menu
- $("#menu-toggle").click(function(e) {
-     e.preventDefault();
-     $("#sidebar-wrapper").toggleClass("active");
- });
-
- // Scrolls to the selected menu item on the page
+  // Scrolls to the selected menu item on the page
  $(function() {
      $('a[href*=#]:not([href=#])').click(function() {
          if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
@@ -19,7 +7,7 @@
              target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
              if (target.length) {
                  $('html,body').animate({
-                     scrollTop: target.offset().top
+                     scrollTop: target.offset().top + 20
                  }, 1000);
                  return false;
              }
@@ -29,13 +17,13 @@
 
 
  //Cache reference to window and animation items
- var $animation_elements = $('#boot-camp');
+ var $animation_elements = $('#reboot');
  var $window = $(window);
  $window.on('scroll resize', check_if_in_view);
  $window.trigger('scroll');
 
  function check_if_in_view() {
-     var $camp = $('#boot-camp');
+     var $camp = $('#reboot');
      if ($camp.is(':in-viewport( 0 )')) {
          console.log("scrolled into viewport");
          $camp.find('.skill-card').css('visibility', 'visible');
