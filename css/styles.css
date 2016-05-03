@@ -55,13 +55,11 @@ section {
 .line2, .line3 {
     font-size: 50px;
 }
-#reboot {
+#reboot, #projects {
   text-align: center;
 }
 .skill {
-    /*position: relative;
-    width: 95%;
-    height: 100px;*/
+    margin-bottom: 15px;
 }
 .skill img {
     width: 100px;
