@@ -137,7 +137,7 @@
                         <p class="cursive-font mg-tile-text">
                             Powered by Google Maps api with custom transitions in javascript.
                         </p>
-                        <a href="/google-maps" class="try-btn">Try It</a>
+                        <a href="http://curtisjenkins.net/google-maps"  target="_blank" class="try-btn">Try It</a>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -147,7 +147,7 @@
                         <p class="cursive-font mg-tile-text">
                             CSS and JQuery magic
                         </p>
-                        <a href="/memory-game" class="try-btn">Try It</a>
+                        <a href=""  target="_blank" class="try-btn">Coming Soon</a>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -158,7 +158,7 @@
                             <p class="cursive-font mg-tile-text">
                                 The winning team project. Powered by the Yumly recipe api with a custom recipe recommendation engine. Warning, if you stay too long you may get hungry!
                             </p>
-                            <a href="/my-grub" class="try-btn">Try It</a>
+                            <a href=""  target="_blank" class="try-btn">Coming Soon</a>
                         </div>
                     </div>
                 </div>
@@ -169,7 +169,7 @@
                         <p class="cursive-font mg-tile-text">
                             Classic game. Play against the computer or a human apponent
                         </p>
-                        <a href="/tic-tac-toe" class="try-btn">Try It</a>
+                        <a href=""  target="_blank" class="try-btn">Coming Soon</a>
                     </div>
                 </div>
             </div>
@@ -181,39 +181,39 @@
                         <p class="cursive-font mg-tile-text">
                             A Better Way to get the most flavorful coffee delivered just when you need it.
                         </p>
-                        <a href="/dc-roasters" class="try-btn">Try It</a>
+                        <a href="/dc-roasters"  target="_blank" class="try-btn">Try It</a>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="mg-tile">
-                        <h3>Memory Game</h3>
+                        <h3>Who Will You Vote For?</h3>
                         <hr/>
                         <p class="cursive-font mg-tile-text">
-                            CSS and JQuery magic
+                            Vote for your Marvel Comics champion
                         </p>
-                        <a href="/memory-game" class="try-btn">Try It</a>
+                        <a href="http://curtisjenkins.net/vote-app" target="_blank" class="try-btn">Try It</a>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="mg-tile">
                         <div>
-                            <h3>My Grub!</h3>
+                            <h3>Coming Soon</h3>
                             <hr/>
                             <p class="cursive-font mg-tile-text">
-                                The winning team project. Powered by the Yumly recipe api with a custom recipe recommendation engine. Warning, if you stay too long you may get hungry!
+                               
                             </p>
-                            <a href="/my-grub" class="try-btn">Try It</a>
+                            <a href=""  target="_blank" class="try-btn">Coming Soon</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="mg-tile">
-                        <h3>Tic Tac Toe</h3>
+                        <h3>Coming Soon</h3>
                         <hr/>
                         <p class="cursive-font mg-tile-text">
-                            Classic game. Play against the computer or a human apponent
+                            
                         </p>
-                        <a href="/tic-tac-toe" class="try-btn">Try It</a>
+                        <a href=""  target="_blank" class="try-btn">Coming Soon</a>
                     </div>
                 </div>
             </div>
