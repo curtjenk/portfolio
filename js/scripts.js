@@ -1,39 +1,39 @@
 $(document).ready(function () {
 	console.log("doc ready");
-	$(".mg-tile-outside").hover(
-		function () {
-			console.log("mouseenter");
+	// $(".mg-tile-outside").hover(
+	// 	function () {
+	// 		console.log("mouseenter");
 
-			$(this).siblings(".mg-tile-inside").css('display', 'block');
-			$(this).siblings(".mg-tile-inside").slideDown(2000);
-			// $(this).siblings(".mg-tile-inside").animate({top: "+=200"}, "slow");
-		},
-		function () {
-			console.log("mouseleave");
-			$(this).siblings(".mg-tile-inside").slideUp(2000);
-			console.log("animation complete");
-			$(this).siblings(".mg-tile-inside").css('display', 'none');
-		});
+	// 		$(this).siblings(".mg-tile-inside").css('display', 'block');
+	// 		$(this).siblings(".mg-tile-inside").slideDown(2000);
+	// 		// $(this).siblings(".mg-tile-inside").animate({top: "+=200"}, "slow");
+	// 	},
+	// 	function () {
+	// 		console.log("mouseleave");
+	// 		$(this).siblings(".mg-tile-inside").slideUp(2000);
+	// 		console.log("animation complete");
+	// 		$(this).siblings(".mg-tile-inside").css('display', 'none');
+	// 	});
 });
 
 
 
 // Scrolls to the selected menu item on the page
-// $(function() {
-//     $('a[href*=#]:not([href=#])').click(function() {
-//         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-//
-//             var target = $(this.hash);
-//             target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-//             if (target.length) {
-//                 $('html,body').animate({
-//                     scrollTop: target.offset().top + 20
-//                 }, 1000);
-//                 return false;
-//             }
-//         }
-//     });
-// });
+$(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: target.offset().top + 20
+                }, 1000);
+                return false;
+            }
+        }
+    });
+});
 
 
 // Cache reference to window and animation items
