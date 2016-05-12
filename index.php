@@ -181,7 +181,7 @@
                         <p class="cursive-font mg-tile-text">
                             A Better Way to get the most flavorful coffee delivered just when you need it.
                         </p>
-                        <a href="/dc-roasters"  target="_blank" class="try-btn">Try It</a>
+                        <a href="http://curtisjenkins.net/dc-roasters"  target="_blank" class="try-btn">Try It</a>
                     </div>
                 </div>
                 <div class="col-md-3">
