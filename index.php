@@ -113,7 +113,7 @@
             <!-- </div> -->
             <!-- <div class="row"> -->
             <div class="logos">
-                <img src="img/background-with-logo-withfilter.jpg">
+                <img src="img/background2.jpg">
             </div>
             <!-- </div> -->
         </div>
