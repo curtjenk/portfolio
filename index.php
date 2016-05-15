@@ -141,7 +141,7 @@
                         <p class="cursive-font mg-tile-text">
                             CSS and JQuery fun.  Test your memory at three levels!
                         </p>
-                        <a href=""  target="_blank" class="try-btn">Coming Soon</a>
+                        <a href="http://curtisjenkins.net/memorygame"  target="_blank" class="try-btn">Try It</a>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -152,7 +152,7 @@
                             <p class="cursive-font mg-tile-text">
                                 The winning team project. Powered by the Yumly recipe api with a custom recipe recommendation engine. Warning, if you stay too long you may get hungry!
                             </p>
-                            <a href=""  target="_blank" class="try-btn">Coming Soon</a>
+                            <a href="http://curtisjenkins.net/mygrub"  target="_blank" class="try-btn">Try It</a>
                         </div>
                     </div>
                 </div>
