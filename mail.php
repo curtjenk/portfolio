@@ -57,4 +57,5 @@
     // }
 
       header('Location: index.php?emailDelivered=' .$status . '#contact');
+      
 ?>
