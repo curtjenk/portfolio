@@ -197,12 +197,12 @@
                 <div class="col-md-3">
                     <div class="mg-tile">
                         <div>
-                            <h3>Coming Soon</h3>
+                            <h3>Bookmarks Manager</h3>
                             <hr/>
                             <p class="cursive-font mg-tile-text">
-                               
+                               Take your bookmarks whereever you go! 
                             </p>
-                            <a href=""  target="_blank" class="try-btn">Coming Soon</a>
+                            <a href="http://curtisjenkins.net/bookmarks"  target="_blank" class="try-btn">Try It</a>
                         </div>
                     </div>
                 </div>
