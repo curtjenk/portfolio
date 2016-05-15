@@ -19,7 +19,7 @@
     <title>Curtis Jenkins Portfolio</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/isInViewport.min.js"></script>
+    <!-- <script type="text/javascript" src="js/isInViewport.min.js"></script> -->
     <script type="text/javascript" src="js/scripts.js"></script>
     <script type="text/javascript" src="js/bootstrap-validator/dist/validator.min.js"></script>
     <!-- Latest compiled and minified CSS -->
@@ -54,23 +54,20 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active">
+                    <!-- <li class="active"> -->
+                     <li>
                         <a href="#home">Home<span class="sr-only">(current)</span>  </a>
-                    </li>
-                    <li class="dropdown">
+                     </li>
+                     <li><a href="#reboot">New Skills</a></li>
+                     <li><a href="#projects">Sample Projects</a></li>
+                    <!-- <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Boot Camp<span class="caret"></span>  </a>
                         <ul class="dropdown-menu">
-                            <li>
-                                <a href="#reboot">New Skills</a>
-                            </li>
-                            <li>
-                                <a href="#projects">Sample Projects</a>
-                            </li>
+                            <li><a href="#reboot">New Skills</a></li>
+                            <li><a href="#projects">Sample Projects</a></li>
                         </ul>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact Me</a>
-                    </li>
+                    </li> -->
+                    <li><a href="#contact">Contact Me</a></li>
                     <li>
                         <a href="Curtis_L_Jenkins.pdf" target="_blank">Resume</a>
                     </li>
@@ -81,47 +78,44 @@
         <!-- /.container-fluid -->
     </nav>
     <!-- Header -->
-    <section id="home" class="page1">
+    <section id="home">
        
         <div class="container-fluid">
             <div class="row">
                 <div id="home-card" class="col-md-6 col-md-offset-3">
-                    <div class="col-md-12">
-                        <div class="card-block">
+                    <!-- <div class="col-md-12"> -->
+                        <!-- <div class="card-block"> -->
                             <div class="line1">Curtis L Jenkins</div>
                             <div class="line2">Experienced IT Professional</div>
                             <div id="divider">
                                 <img src="img/divider.png">
                             </div>
                             <div class="line3">Builder Of Things</div>
-                        </div>
-                    </div>
+                        <!-- </div> -->
+                    <!-- </div> -->
                 </div>
             </div>
         </div>
     </section>
     <!-- Boot Camp -->
-    <section id="reboot" class="page2">
+    <section id="reboot" class="page text-center">
         <div class="container-fluid">
-            <!-- <div class="row"> -->
             <div class="col-md-12 text-md-center">
                 <h1 class="cursive-font">New Skills Learned In Boot Camp</h1>
-                <p class="lead">Thanks
-                    <a target="_blank" href="http://digitalcrafts.com">DigitalCrafts</a> for the ctrl-alt-delete</p>
+                <p class="lead">16 Week Immersive Program at 
+                    <a target="_blank" href="http://digitalcrafts.com">DigitalCrafts</a></p>
                 <br>
             </div>
-            <!-- </div> -->
-            <!-- <div class="row"> -->
             <div class="logos">
                 <img src="img/background2.jpg">
             </div>
-            <!-- </div> -->
         </div>
     </section>
-    <section id="projects" class="page3">
-        <div class="container">
+    <section id="projects" class="page text-center">
+        <a name="projects"></a>
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-md-12 text-md-center">
+                <div class="col-md-12">
                     <h1 class="cursive-font">Sample Boot Camp Projects</h1>
                     <p class="lead">My
                         <a target="_blank" href="http://github.com/curtjenk">github</a> repo
@@ -145,7 +139,7 @@
                         <h3>Memory Game</h3>
                         <hr/>
                         <p class="cursive-font mg-tile-text">
-                            CSS and JQuery magic
+                            CSS and JQuery fun.  Test your memory at three levels!
                         </p>
                         <a href=""  target="_blank" class="try-btn">Coming Soon</a>
                     </div>
@@ -219,11 +213,11 @@
             </div>
         </div>
     </section>
-    <section id="contact">
+    <section id="contact" class="page">
        <a name="contact"></a>
         <div class="container-fluid">
-            <div class="col-md-12">
-                <div id="contact-head" >
+            <div class="col-md-12  text-center">
+                <div>
                     <h1 class="cursive-font">Contact Me</h1>
                     <h3 class="angular-red"><?php echo $contactMessage; ?></h3>
                 </div>
@@ -232,12 +226,8 @@
             <div class="col-md-offset-2 col-md-6">
                 <form action="mail.php" method="post" data-toggle="validator" role="form" id="contact-form" name="contact">
                     <div class="form-group">
-                        <label>First Name</label>
-                        <input type="text" name="firstName" placeholder="First Name"  class="form-control shorten"> 
-                    </div>
-                    <div class="form-group">
-                        <label>Last Name</label>
-                        <input type="text" name="lastName" placeholder="Last Name"  class="form-control shorten"> 
+                        <label>Name</label>
+                        <input type="text" name="name" placeholder="Name"  class="form-control shorten"> 
                     </div>
                     <div class="form-group">
                         <label>Email</label>
@@ -268,8 +258,6 @@
                     <p>Metropolitan Atlanta, GA</p>
                     <ul class="list-unstyled">
                         <li>
-                            <i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-                        <li>
                             <i class="fa fa-envelope-o fa-fw"></i>
                             <a href="mailto:curtjenk@comcast.net">curtjenk@comcast.net</a>
                         </li>
@@ -277,10 +265,11 @@
                     <br>
                     <ul class="list-inline">
                         <li>
-                            <a href="#">
-                                <i class="fa fa-facebook fa-fw fa-3x"></i>
+                            <a href="http://www.linkedin.com/in/curtisljenkins" target="_blank">
+                                <i class="fa fa-linkedin-square fa-fw fa-3x"></i>
                             </a>
                         </li>
+                        <!-- 
                         <li>
                             <a href="#">
                                 <i class="fa fa-twitter fa-fw fa-3x"></i>
@@ -290,7 +279,7 @@
                             <a href="#">
                                 <i class="fa fa-dribbble fa-fw fa-3x"></i>
                             </a>
-                        </li>
+                        </li> -->
                     </ul>
                     <hr class="small">
                     <p class="text-muted">Copyright &copy; David Jonathan Jenkins &amp; Associates, LLC 2016</p>

@@ -8,8 +8,8 @@
 
       $mail = new PHPMailer(); // defaults to using php "mail()"
       $body = $_POST['emailBody'];
-      $mail->AddReplyTo($_POST['emailAddr'] ,$_POST['firstName']. ' ' . $_POST['lastName']);
-      $mail->SetFrom($_POST['emailAddr'] ,$_POST['firstName']. ' ' . $_POST['lastName']);
+      $mail->AddReplyTo($_POST['emailAddr'] ,$_POST['name']);
+      $mail->SetFrom($_POST['emailAddr'] ,$_POST['name']);
       $address = "curtjenk@comcast.net";
       $mail->AddAddress($address, "Curtis Jenkins");
       $mail->Subject    = $_POST['emailSubject'];
