@@ -18,6 +18,8 @@
     <meta name="Curtis Jenkins" content="">
     <title>Curtis Jenkins Portfolio</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/qTip2/jquery.qtip.custom/jquery.qtip.min.js"></script>
+    <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <!-- <script type="text/javascript" src="js/isInViewport.min.js"></script> -->
     <script type="text/javascript" src="js/scripts.js"></script>
@@ -107,7 +109,14 @@
                 <br>
             </div>
             <div class="logos">
-                <img src="img/background2.jpg">
+                <img src="img/background2.jpg" usemap="skills-image-map">
+                <map name="skills-image-map" id="skills-image-map">
+                    <area alt="" title="" href="" shape="poly" coords="148,79,153,230,542,230,539,28" />   <!-- lamp -->
+                    <area alt="" title="" href="" shape="poly" coords="669,106,669,193,930,198,943,107" /> <!-- jquery -->
+                    <area alt="" title="" href="" shape="poly" coords="52,299,58,423,174,422,176,305" />   <!-- apache -->
+                    <area alt="" title="" href="" shape="poly" coords="71,548,74,635,222,643,224,536" />   <!-- mysql -->
+                    <area alt="" title="" href="" shape="poly" coords="258,362,245,506,340,517,356,369" />  <!-- linux -->
+                </map>
             </div>
         </div>
     </section>
