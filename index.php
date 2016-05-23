@@ -81,7 +81,7 @@
     </nav>
     <!-- Header -->
     <section id="home">
-       
+
         <div class="container-fluid">
             <div class="row">
                 <div id="home-card" class="col-md-6 col-md-offset-3">
@@ -104,7 +104,7 @@
         <div class="container-fluid">
             <div class="col-md-12 text-md-center">
                 <h1 class="cursive-font">New Skills Learned In Boot Camp</h1>
-                <p class="lead">16 Week Immersive Program at 
+                <p class="lead">16 Week Immersive Program at
                     <a target="_blank" href="http://digitalcrafts.com">DigitalCrafts</a></p>
                 <br>
             </div>
@@ -203,7 +203,7 @@
                             <h3>Bookmarks Manager</h3>
                             <hr/>
                             <p class="cursive-font mg-tile-text">
-                               Take your bookmarks whereever you go! 
+                               Take your bookmarks whereever you go!
                             </p>
                             <a href="http://curtisjenkins.net/bookmarks"  target="_blank" class="try-btn">Try It</a>
                         </div>
@@ -211,12 +211,15 @@
                 </div>
                 <div class="col-md-3">
                     <div class="mg-tile">
-                        <h3>Coming Soon</h3>
+                        <h3>Save the Manta Ray</h3>
                         <hr/>
                         <p class="cursive-font mg-tile-text">
-                            
+                          The giant manta ray  ... are threatened by a number of
+                          factors of anthropogenic origin rather than natural causes. Its few natural predators such as large sharks
+                          and killer whales do not usually attack often, but humans are almost always involved in the injury or death of these fish."
+                         <span class="angular-red" style="font: bold;">(http://www.mantaray-world.com/manta-rays-endangered/)</span>
                         </p>
-                        <a href=""  target="_blank" class="try-btn">Coming Soon</a>
+                        <a href="http://curtisjenkins.net/mantaray"  target="_blank" class="try-btn">Try It</a>
                     </div>
                 </div>
             </div>
@@ -231,20 +234,20 @@
                     <h3 class="angular-red"><?php echo $contactMessage; ?></h3>
                 </div>
             </div>
-           
+
             <div class="col-md-offset-2 col-md-6">
                 <form action="mail.php" method="post" data-toggle="validator" role="form" id="contact-form" name="contact">
                     <div class="form-group">
                         <label>Name</label>
-                        <input type="text" name="name" placeholder="Name"  class="form-control shorten"> 
+                        <input type="text" name="name" placeholder="Name"  class="form-control shorten">
                     </div>
                     <div class="form-group">
                         <label>Email</label>
-                        <input type="email" name="emailAddr" placeholder="Email Address"  class="form-control shorten"> 
+                        <input type="email" name="emailAddr" placeholder="Email Address"  class="form-control shorten">
                     </div>
                     <div class="form-group">
                         <label>Subject</label>
-                        <input type="text" name="emailSubject" placeholder="Email Subject"  class="form-control shorten"> 
+                        <input type="text" name="emailSubject" placeholder="Email Subject"  class="form-control shorten">
                     </div>
                     <div class="form-group">
                         <label>Message</label>
@@ -278,7 +281,7 @@
                                 <i class="fa fa-linkedin-square fa-fw fa-3x"></i>
                             </a>
                         </li>
-                        <!-- 
+                        <!--
                         <li>
                             <a href="#">
                                 <i class="fa fa-twitter fa-fw fa-3x"></i>
