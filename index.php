@@ -214,10 +214,8 @@
                         <h3>Save the Manta Ray</h3>
                         <hr/>
                         <p class="cursive-font mg-tile-text">
-                          The giant manta ray  ... are threatened by a number of
-                          factors of anthropogenic origin rather than natural causes. Its few natural predators such as large sharks
-                          and killer whales do not usually attack often, but humans are almost always involved in the injury or death of these fish."
-                         <span class="angular-red" style="font: bold;">(http://www.mantaray-world.com/manta-rays-endangered/)</span>
+                          Click <a href="http://www.mantaray-world.com/manta-rays-endangered/"  target="_blank"><span class="angular-red" style="font: bold;">here</span>
+                          </a> to find out more about the plight of the giant manta ray.
                         </p>
                         <a href="http://curtisjenkins.net/mantaray"  target="_blank" class="try-btn">Try It</a>
                     </div>
