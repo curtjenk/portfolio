@@ -135,6 +135,17 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="mg-tile">
+                        <h3>Ticket Fix Me</h3>
+                        <hr/>
+                        <p class="cursive-font mg-tile-text">
+                             Ticketfixme focuses on the tenant/renter but greatly benefits the property owner/manager and
+                             independent contractor/handyman.
+                        </p>
+                        <a href="http://ticketfixme.com"  target="_blank" class="try-btn">Try It</a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="mg-tile">
                         <h3>Google Maps</h3>
                         <hr/>
                         <p class="cursive-font mg-tile-text">
@@ -165,16 +176,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="mg-tile">
-                        <h3>Tic Tac Toe</h3>
-                        <hr/>
-                        <p class="cursive-font mg-tile-text">
-                            Classic game. Play against the computer or a human apponent
-                        </p>
-                        <a href=""  target="_blank" class="try-btn">Coming Soon</a>
-                    </div>
-                </div>
+
             </div>
             <div class="row">
                 <div class="col-md-3">
